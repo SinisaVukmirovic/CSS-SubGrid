@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SubGrid</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="site">
+        <header class="site__header entry-content content-flow">
+            <h1>Doulightful News</h1>
+            <p class="intro">Discover the joy of simplicity with our carefully crafted news. From the classic insights
+                to our unique perspectives, each piece promises a journey of knowledge made with love and quality
+                information.</p>
+        </header>
+        <main class="site__main">
+            <div class="entry-content content-flow">
+                <form action="/" class="newsletter-form">
+                    <div class="newsletter-form__item form-control">
+                        <label class="form-control__label" for="userEmail">Email</label>
+                        <input class="form-control__input" type="email" id="userEmail"
+                            aria-described-by="userEmailHelp">
+                        <p class="form-control__help">Example: info@example.com</p>
+                    </div>
+                    <div class="newsletter-form__item form-control">
+                        <label class="form-control__label" for="userFirstName">First Name</label>
+                        <input class="form-control__input" type="text" id="userFirstName">
+                    </div>
+                    <div class="newsletter-form__item form-control">
+                        <label class="form-control__label" for="userFirstName">Last Name</label>
+                        <input class="form-control__input" type="text" id="userFirstName">
+                    </div>
+                    <div class="newsletter-form__item newsletter-form__item--submit form-control">
+                        <input class="form-control__button button newsletter-form__submit" type="submit"
+                            value="Sign Up dwse" />
+                    </div>
+                </form>
+                <p>Please note that 'Doulightful News' is not an actual news agency, but a creative showcase designed
+                    for a YouTube video to explain the concept of Subgrid in CSS Grid layouts.</p>
+            </div>
+        </main>
+        <footer class="site__footer entry-content content-flow">
+            <p>&copy; 2024 Doulightful News. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
+
 </html>
