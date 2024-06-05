@@ -215,7 +215,7 @@ body {
         grid-template-rows: repeat(3, auto);
         column-gap: var(--step-1);
         align-items: end;
-        /* row-gap: var(--step--5); */
+        row-gap: var(--step--5);
     }
 }
 
@@ -227,11 +227,11 @@ body {
         display: grid;
         grid-template-columns: minmax(0, 1fr);
         grid-template-rows: subgrid;
-        /* align-items: end; */
+        align-items: end;
     }
 }
 
-/* .newsletter-form__item>*+* {
+.newsletter-form__item>*+* {
     @media screen and (min-width: 768px) {
         margin-block-start: 0;
     }
@@ -241,4 +241,4 @@ body {
     @media screen and (min-width: 768px) {
         grid-row: 2;
     }
-} */
+}
