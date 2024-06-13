@@ -38,3 +38,10 @@ body {
     /* grid-row: 1 / 4; */
     grid-row: span 3;
 }
+
+.example {
+    color: #eee;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}

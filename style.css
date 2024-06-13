@@ -242,3 +242,9 @@ body {
         grid-row: 2;
     }
 }
+
+.example {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
