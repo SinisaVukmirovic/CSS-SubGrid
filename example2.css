@@ -23,7 +23,7 @@ body {
     /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .box {
@@ -37,6 +37,11 @@ body {
     grid-template-rows: subgrid;
     /* grid-row: 1 / 4; */
     grid-row: span 3;
+}
+
+.entry-content>* {
+    margin-inline: auto;
+    max-width: min(100% - var(--step-3) - var(--step-3), 48rem);
 }
 
 .example {
